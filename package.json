@@ -1,0 +1,21 @@
+{
+  "name": "canopyMatchMaker",
+  "description": "Canopy Matchmaker dynamically determines the appropriate solutions to a user's needs by employing a fast and simple algorithm that measures fitness of a match based on weighting the proximity of solutions within a pluggable ontology.",
+  "version": "0.1.0-SNAPSHOT",
+  "author": "GPII",
+  "bugs": "http://issues.gpii.org/",
+  "homepage": "http://gpii.net/",
+  "dependencies": {
+      "universal": "git://github.com/GPII/universal.git"
+  },
+  "licenses": [
+       {
+           "type": "BSD-3-Clause",
+           "url": "http://www.opensource.org/licenses/BSD-3-Clause"
+       }
+  ],
+  "keywords": ["matchmaker", "framework", "evented", "GPII"],
+  "repository": "git://github.com/GPII/canopyMatchMaker.git",
+  "main": "./lib/CanopyMatchMaker.js",
+  "engines": { "node" : ">=0.1.9" }
+}

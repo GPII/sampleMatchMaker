@@ -1,0 +1,21 @@
+{
+    "typeName": "canopyMatchMaker.development",
+    "options": {
+        "components": {
+            "server": {
+                "options": {
+                    "components": {
+                        "matchMaker": {
+                            "options": {
+                                "strategy": "gpii.matchMaker.canopy.disposeStrategy"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "includes": [
+        "../node_modules/universal/gpii/node_modules/matchMaker/configs/development.json"
+    ]
+}

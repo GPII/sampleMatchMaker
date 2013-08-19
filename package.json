@@ -1,12 +1,12 @@
 {
-  "name": "canopyMatchMaker",
-  "description": "Canopy Matchmaker dynamically determines the appropriate solutions to a user's needs by employing a fast and simple algorithm that measures fitness of a match based on weighting the proximity of solutions within a pluggable ontology.",
+  "name": "sampleMatchMaker",
+  "description": "Sample Matchmaker matches solution records to user needs and preferences.",
   "version": "0.1.0-SNAPSHOT",
   "author": "GPII",
   "bugs": "http://issues.gpii.org/",
   "homepage": "http://gpii.net/",
   "dependencies": {
-      "universal": "git://github.com/GPII/universal.git"
+      "universal": "git://github.com/GPII/universal.git#a03b5e4512691cad032186434bd3e8151ad23a6d"
   },
   "licenses": [
        {
@@ -15,7 +15,7 @@
        }
   ],
   "keywords": ["matchmaker", "framework", "evented", "GPII"],
-  "repository": "git://github.com/GPII/canopyMatchMaker.git",
-  "main": "./lib/CanopyMatchMaker.js",
+  "repository": "git://github.com/GPII/sampleMatchMaker.git",
+  "main": "./lib/SampleMatchMaker.js",
   "engines": { "node" : ">=0.1.9" }
 }

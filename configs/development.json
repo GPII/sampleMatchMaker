@@ -1,5 +1,5 @@
 {
-    "typeName": "canopyMatchMaker.development",
+    "typeName": "sampleMatchMaker.development",
     "options": {
         "components": {
             "server": {
@@ -7,7 +7,7 @@
                     "components": {
                         "matchMaker": {
                             "options": {
-                                "strategy": "gpii.matchMaker.canopy.disposeStrategy"
+                                "strategy": "gpii.matchMaker.sample.disposeStrategy"
                             }
                         }
                     }

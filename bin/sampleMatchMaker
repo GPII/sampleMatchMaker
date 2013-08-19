@@ -3,7 +3,7 @@
 var fluid = require("universal"),
     kettle = fluid.registerNamespace("kettle");
 
-fluid.require("../lib/CanopyMatchMaker.js", require);
+fluid.require("../lib/SampleMatchMaker.js", require);
 
 kettle.config.makeConfigLoader({
     nodeEnv: kettle.config.getNodeEnv(),
